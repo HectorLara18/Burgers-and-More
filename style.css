@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.titulo{
+    font-size: 4rem;
+    text-align: center;
+    padding: 1rem .5rem;
+    background-color: #FFC914;
+}
+
+.menu{
+    background-color: #2E282A;
+    display: flex;
+}
+
+.menu-unselected{
+    font-size: 3rem;
+    color: white;
+    padding: .5rem 1rem;
+    list-style-type: none;
+    text-align: center;
+    border-right: solid .1rem #444;
+    border-bottom: .2rem solid #2E282A;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.menu-unselected:hover{
+    border-bottom: .2rem solid #FFF291;
+    margin-bottom: 1rem;
+}
+
+.menu-selected{
+    font-size: 3rem;
+    color: white;
+    padding: .5rem 1rem;
+    list-style-type: none;
+    text-align: center;
+    border-right: solid .1rem #444;
+    border-bottom: .2rem solid #FFC914;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+main{
+    width: 100%;
+}
+
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    background-color: #eee;
+    margin-top: 123px;
+}
+
+.comida{
+    flex-grow: 1;
+    margin: 2rem 2rem;
+    padding: .5rem;
+    border: solid .2rem black;
+    max-width: 315px;
+    cursor: pointer;
+}
+
+.comida-img{
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+}
+
+.comida h2{
+    font-size: 2.4rem;
+    padding: 0.5rem 0rem;
+}
+
+.comida p, b{
+    font-size: 2rem;
+    padding: 0.5rem 0rem;
+}
+
+.comida:hover{
+    box-shadow: 0 0 13px #E4572E;
+}
+
+.menu-completo{
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
